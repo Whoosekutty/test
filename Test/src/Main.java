@@ -8,6 +8,9 @@ public class Main {
 		String s2 = System.getProperty("formname");
 		System.out.println(s1);
 		System.out.println(s2);
+		for(String s : args) {
+			System.out.println(s);
+		}
 
 	}
 
