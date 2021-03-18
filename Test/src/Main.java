@@ -4,9 +4,10 @@ public class Main {
 	public static void main(String[] args) {
 		
 		System.out.println("working");
-		for(String s : args) {
-			System.out.println(s);
-		}
+		String s1 = System.getProperty("date");
+		String s2 = System.getProperty("formname");
+		System.out.println(s1);
+		System.out.println(s2);
 
 	}
 
