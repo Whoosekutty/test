@@ -15,6 +15,9 @@ public class Main {
 		for(String s : env.keySet()) {
 			System.out.println(s);
 			System.out.println(env.get(s));
+			if(s.equals("date")) {
+				System.exit(1);
+			}
 			w.append(s);
 			w.append(env.get(s));
 		}
