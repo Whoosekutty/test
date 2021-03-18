@@ -17,9 +17,10 @@ public class Main {
 			System.out.println(env.get(s));
 			if(s.equals("date")) {
 				//System.exit(1);
+				w.append(s);
+				w.append(env.get(s));
 			}
-			w.append(s);
-			w.append(env.get(s));
+			
 		}
 
 	}
