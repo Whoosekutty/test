@@ -29,6 +29,7 @@ public class Main {
 			
 		}
 		System.out.println(file.getAbsolutePath());
+		System.setProperty("Filename", file.getAbsolutePath());
 		w.close();
 	}
 
