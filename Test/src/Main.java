@@ -20,7 +20,7 @@ public class Main {
 		FileWriter w = new FileWriter(file);
 		w.append("ojsaf");
 		w.close();
-		System.exit(1);
+		//System.exit(1);
 		File xl = new File("./reports/excel"+timeStamp+".xls");
 		File ex = new File("./reports/auto"+timeStamp+".xls");
 		
