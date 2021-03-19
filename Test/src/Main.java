@@ -16,8 +16,8 @@ public class Main {
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		System.out.println(timeStamp);
 		File file = new File("hello_"+timeStamp+".txt");
-		File xl = new File("excel"+timeStamp+".xsl");
-		File ex = new File("auto"+timeStamp+".xsl");
+		File xl = new File("excel"+timeStamp+".xls");
+		File ex = new File("auto"+timeStamp+".xls");
 		
 		FileWriter w = new FileWriter(file);
 		FileWriter xxl = new FileWriter(xl);
