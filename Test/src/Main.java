@@ -18,6 +18,7 @@ public class Main {
 		new File("./reports/").mkdirs();
 		File file = new File("./reports/hello_"+timeStamp+".txt");
 		FileWriter w = new FileWriter(file);
+		w.append("ojsaf");
 		w.close();
 		System.exit(1);
 		File xl = new File("./reports/excel"+timeStamp+".xls");
