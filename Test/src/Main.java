@@ -15,7 +15,7 @@ public class Main {
 		Map<String, String> env = System.getenv();
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		System.out.println(timeStamp);
-		File file = new File("src/Excel/hello.txt"+timeStamp);
+		File file = new File("src/hello.txt"+timeStamp);
 		
 		FileWriter w = new FileWriter(file);
 		for(String s : env.keySet()) {
