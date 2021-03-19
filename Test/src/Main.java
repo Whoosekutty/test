@@ -10,7 +10,7 @@ public class Main {
 		System.out.println("working");
 		
 		Map<String, String> env = System.getenv();
-		File file = new File("D:/hello.txt");
+		File file = new File("./hello.txt");
 		FileWriter w = new FileWriter(file);
 		for(String s : env.keySet()) {
 			System.out.println(s);
