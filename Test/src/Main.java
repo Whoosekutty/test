@@ -17,12 +17,13 @@ public class Main {
 		System.out.println(timeStamp);
 		new File("./reports/").mkdirs();
 		File file = new File("./reports/hello_"+timeStamp+".txt");
+		FileWriter w = new FileWriter(file);
 		w.close();
 		System.exit(1);
 		File xl = new File("./reports/excel"+timeStamp+".xls");
 		File ex = new File("./reports/auto"+timeStamp+".xls");
 		
-		FileWriter w = new FileWriter(file);
+		
 		FileWriter xxl = new FileWriter(xl);
 		FileWriter exx = new FileWriter(ex);
 //		for(String s : env.keySet()) {
