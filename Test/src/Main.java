@@ -18,7 +18,7 @@ public class Main {
 		new File("./reports/").mkdirs();
 		File file = new File("./reports/hello_"+timeStamp+".txt");
 		File xl = new File("./reports/excel"+timeStamp+".xls");
-		File ex = new File("./reports/auto"+timeStamp+".xls");
+		File ex = new File("./reports/auto"+timeStamp+".txt");
 		
 		FileWriter w = new FileWriter(file);
 		FileWriter xxl = new FileWriter(xl);
