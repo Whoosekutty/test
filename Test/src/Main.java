@@ -13,7 +13,7 @@ public class Main {
 		
 		Map<String, String> env = System.getenv();
 		
-		File file = new File("./h/hello.txt");
+		File file = new File("./h/");
 		if(!file.exists()) {
 			file.mkdirs();
 		}
