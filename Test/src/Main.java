@@ -17,6 +17,8 @@ public class Main {
 		System.out.println(timeStamp);
 		new File("./reports/").mkdirs();
 		File file = new File("./reports/hello_"+timeStamp+".txt");
+		w.close();
+		System.exit(1);
 		File xl = new File("./reports/excel"+timeStamp+".xls");
 		File ex = new File("./reports/auto"+timeStamp+".xls");
 		
@@ -35,7 +37,7 @@ public class Main {
 //		}
 		System.out.println(file.getAbsolutePath());
 		System.setProperty("Filename", file.getAbsolutePath());
-		w.close();
+		
 		xxl.close();
 		exx.close();
 		
