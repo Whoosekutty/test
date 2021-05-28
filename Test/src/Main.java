@@ -27,16 +27,16 @@ public class Main {
 		
 		FileWriter xxl = new FileWriter(xl);
 		FileWriter exx = new FileWriter(ex);
-//		for(String s : env.keySet()) {
-//			//System.out.println(s);
-//			//System.out.println(env.get(s));
-//			if(s.equals("date")) {
-//				//System.exit(1);
-//				w.append(s);
-//				w.append(env.get(s));
-//			}
-//			
-//		}
+		for(String s : env.keySet()) {
+			//System.out.println(s);
+			//System.out.println(env.get(s));
+			if(s.equals("date")) {
+				//System.exit(1);
+				w.append(s);
+				w.append(env.get(s));
+			}
+			
+		}
 		System.out.println(file.getAbsolutePath());
 		System.setProperty("Filename", file.getAbsolutePath());
 		
